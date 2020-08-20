@@ -1,0 +1,13 @@
+# >/home/pi/.config/netsurf/Cookies
+# NetSurf cookies file.
+#
+# Lines starting with a '#' are comments, blank lines are ignored.
+#
+# All lines prior to "Version:	102" are discarded.
+#
+# Version	Domain	Domain from Set-Cookie	Path	Path from Set-Cookie	Secure	HTTP-Only	Expires	Last used	No destroy	Name	Value	Value was quoted	Scheme	URL	Comment
+Version:	102
+0	.saylor.org	1	/	1	0	1	1570761050	1539225052	0	__cfduid	d0d68cfe515d9b7bda749172aa5f67f341539225050	0	unused	unused	
+0	.google.com	1	/	1	0	0	1541240602	1540343223	0	1P_JAR	2018-10-04-10	0	unused	unused	
+0	.google.com	1	/	1	0	1	1554459790	1540343223	0	NID	140=S8Frw2F-COKIgE-JlDjo732VIsLTH1VKq03WH0C5WVtcR9Lgy5I3iicJpiSV_2JVYqYuJmPxAtP9TouMtuqAV-HBMOVcFX6kPidALuKcR_sPvhFfD_vWJ7R79y4V-lpb	0	unused	unused	
+0	.google.com	1	/search	1	0	1	1554427078	0	0	CGIC	IgMqLyo	0	unused	unused	

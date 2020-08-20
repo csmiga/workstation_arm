@@ -1,0 +1,4 @@
+[Added Associations]
+image/jpeg=shotwell-viewer.desktop;
+application/pdf=epdfview.desktop;libreoffice-draw.desktop;evince.desktop;gimp.desktop;
+text/plain=leafpad.desktop;org.gnome.gedit.desktop;

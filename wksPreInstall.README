@@ -1,0 +1,29 @@
+################################################################################
+# WORKSTATION PRE-INSTALLATION STEPS                                           #
+################################################################################
+
+Recommended Raspian Image
+  YYYY-MM-DD-raspbian-release-lite.img
+
+Manually run commands as user 'pi'
+  login: pi
+  password: raspberry
+
+CONFIGURE ENVIRONMENT WIFI FROM RASPI-CONFIG
+  $> sudo raspi-config
+
+  1.) Localisation Options -> Change Timezone
+  2.) Localisation Options -> Change Keyboard Layout
+  3.) Network Options -> Wifi
+  4.) Network Options -> Hostname
+
+  $> sudo reboot
+
+INSTALL GIT AND CLONE REPO
+  $> sudo apt-get install --no-install-recommends --yes git
+  $> git clone https://gitlab.com/csmiga/ore.infra.git
+
+RUNNING THESE SCRIPTS IN THE FOLLOWING ORDER
+  1.) wksPreInstall.sh   ; run as 'root' user
+  2.) wksInstall.sh      ; run as 'root'
+  3.) wksPostInstall.sh  ; run as 'pi' or new user
